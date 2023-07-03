@@ -16,8 +16,8 @@ https://learn.microsoft.com/en-us/azure/reliability/availability-zones-service-s
 
 use availability zones to run mission-critical applications and build high-availability into your application architecture. Keep in mind that there could be a cost to duplicating your services and transferring data between zones.  
 
-Availability zones are primarily for VMs, managed disks, load balancers, and SQL databases. The following categories of Azure services support availability zones:
+Availability zones are primarily for VMs, managed disks, load balancers, and SQL databases. The following categories of Azure services support availability zones:  
 
-    Zonal services: You pin the resource to a specific zone (for example, VMs, managed disks, IP addresses).
-    Zone-redundant services: The platform replicates automatically across zones (for example, zone-redundant storage, SQL Database).
-    Non-regional services: Services are always available from Azure geographies and are resilient to zone-wide outages and region-wide outages.
+* Zonal services: You pin the resource to a specific zone (for example, VMs, managed disks, IP addresses).
+* Zone-redundant services: The platform replicates automatically across zones (for example, zone-redundant storage, SQL Database).
+* Non-regional services: Services are always available from Azure geographies and are resilient to zone-wide outages and region-wide outages.
