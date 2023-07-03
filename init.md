@@ -1,4 +1,4 @@
-# Resources in Azure, which has four levels:   
+# Resources in Azure
 management groups   
 subscriptions   
 resource groups  
